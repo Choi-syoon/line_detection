@@ -12,7 +12,7 @@
 
 #### env setting
 
-    Anaconda env and Package settings are shared with the Step1, To start this repository, need installed various packages on anaconda env. To make this steps easier, In the git clone folder of the previous step, There will be ldetect_env yml, it is env file extracted from anaconda. 
+Anaconda env and Package settings are shared with the Step1, To start this repository, need installed various packages on anaconda env. To make this steps easier, In the git clone folder of the previous step, There will be ldetect_env yml, it is env file extracted from anaconda. 
 
     
 
