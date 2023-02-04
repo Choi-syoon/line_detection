@@ -32,6 +32,12 @@ Usually, line detection uses Canny Edge Detection[CED] and Hough Transform. It i
 
 ![Pipeline_img](https://user-images.githubusercontent.com/108206338/216509992-411ec6e6-4d5a-4336-ab19-614bd73b70cd.png)
 
+* Gray scale - need convert to gray scale of input image, because, it is too much amount of computation.
+
+* Gaussian Filter - line detection responds sensitively of the noise. therefore, need to filltering of the noise. Gaussian Fillter is commonly-used on line detection.
+
+* Canny Edge Detection - 
+
 > ## Trouble Shooting
 
 > ## References
