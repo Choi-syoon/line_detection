@@ -36,7 +36,11 @@ Usually, line detection uses Canny Edge Detection[CED] and Hough Transform. It i
 
 * Gaussian Filter - line detection responds sensitively of the noise. therefore, need to filltering of the noise. Gaussian Fillter is commonly-used on line detection.
 
-* Canny Edge Detection - 
+* Canny Edge Detection - in earnest, detection lane of though the Canny Edge Detection
+
+* ROI Canny - Based ROI area, detection of lane from the Canny Edge Detection section.
+
+* Find & Draw Contours - using `cv2.findContours`, `cv2.drawContours` functions, find contours of lane, and draw contours on the frame.
 
 > ## Trouble Shooting
 
